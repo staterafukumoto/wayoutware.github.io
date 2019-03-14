@@ -1,0 +1,117 @@
+body{
+    background: black;
+}
+
+#header{
+    background: #111;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 68px;
+    justify-content: center;
+    z-index: 20;
+    user-select: none;
+    box-shadow: 0px 6px 66px -14px rgba(0,0,0,0.75);
+}
+
+#headerImg{
+    height: 58px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.josefin{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.acme{
+    font-family: 'Acme', sans-serif;
+}
+
+.zcool{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.righteous{
+    font-family: 'Righteous', cursive;
+}
+
+.menubar{
+    position: absolute;
+    left: 6px;
+    top: 10px;
+    /* color: purple; */
+    user-select: none;
+    cursor: pointer;
+    font-size: 48px !important;
+    transition: 0.2s filter ease;
+    background: linear-gradient(#9600ff, #de00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menubar:hover{
+    filter: brightness(1.2);
+}
+
+.menubar:active{
+    filter: brightness(1.4);
+}
+
+#dropdown{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 20px;
+    height: 48px;
+    background: #222;
+    z-index: 10;
+    text-align: center;
+    user-select: none;
+    transition: 0.2s top ease;
+}
+
+.ddItem{
+    line-height: 48px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-transform: uppercase;
+    font-size: 24px;
+    height: 48px;
+    transform: scale(1);
+    background: linear-gradient(#9600ff, #de00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+    cursor: pointer;
+    transition: margin 0.2s ease, transform 0.2s ease;
+}
+
+.sep{
+    line-height: 48px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-transform: uppercase;
+    font-size: 24px;
+    height: 48px;
+    background: linear-gradient(#de00ff,#9600ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
+
+.ddItem:hover{
+    transform: scale(1.2);
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#announcement{
+    margin-top: 20%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px !important;
+    background: linear-gradient(#de00ff,#9600ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
